@@ -16,5 +16,4 @@ your decision of how to voice that chord.
 * `Settings` sets up your guitar to have between 4 and 8 strings of any tuning and 
 between 12 and 24 frets. Select which page you would like to view by default upon opening the app.
 
-* The app was initially made as a project for a cs50 class, the following video has a demo of the submitted version:
-* https://www.youtube.com/watch?v=pM8rKoxoiqI
+* The app was initially made as a project for a cs50 class, the following video has a demo of the submitted version: https://www.youtube.com/watch?v=pM8rKoxoiqI

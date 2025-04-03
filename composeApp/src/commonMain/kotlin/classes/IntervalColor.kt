@@ -119,7 +119,9 @@ class IntervalColor(intervalValue: Int) {
 
     val textColor = when (intervalValue) {
         0 -> if (
-            (settings.getInt("interval0ColorRed", defaultInterval0ColorRed) * 0.299 + settings.getInt("interval0ColorGreen", defaultInterval0ColorGreen) * 0.587 + settings.getInt("interval0ColorBlue", defaultInterval0ColorBlue) * 0.114) > 186
+            (settings.getInt("interval0ColorRed", defaultInterval0ColorRed) * 0.299 +
+                    settings.getInt("interval0ColorGreen", defaultInterval0ColorGreen) * 0.587 +
+                    settings.getInt("interval0ColorBlue", defaultInterval0ColorBlue) * 0.114) > 186
         ) { Color.Black } else { Color.White }
         1 -> if (
             (settings.getInt("interval1ColorRed", defaultInterval1ColorRed) * 0.299 + settings.getInt("interval1ColorGreen", defaultInterval1ColorGreen) * 0.587 + settings.getInt("interval1ColorBlue", defaultInterval1ColorBlue) * 0.114) > 186
